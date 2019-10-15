@@ -1,3 +1,4 @@
+import { InterfacedialogueComponent } from './interfacedialogue/interfacedialogue.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { NotesComponent } from './notes/notes.component';
 import { FeedbackComponent } from './feedback/feedback.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
     path: "feedback", component: FeedbackComponent
 
   },
+  {path:"dialogue",component:InterfacedialogueComponent},
   {
 
     path: "",

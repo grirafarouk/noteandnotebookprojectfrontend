@@ -1,0 +1,5 @@
+
+description 
+using change for tracking data from the html template
+using the annotation querry and adding param to the function and retreubee the data befotre adding  the new requyest
+changing the mecanisme while delete notebook from database and passing notebooks liste to front angular after deteledBy id

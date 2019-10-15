@@ -8,14 +8,16 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { NotesComponent } from './notes/notes.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import {FormsModule}  from '@angular/forms'
+import {FormsModule}  from '@angular/forms';
+import { InterfacedialogueComponent } from './interfacedialogue/interfacedialogue.component'
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     NotesComponent,
     FeedbackComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    InterfacedialogueComponent
   ],
   imports: [
     HttpClientModule,
