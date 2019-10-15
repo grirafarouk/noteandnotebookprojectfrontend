@@ -75,7 +75,6 @@ this.getAllNotesBooks()
       name: "new Notebook",
       nbOfNotes: 0
     }
-
     this.note.createNotebook(newbook).subscribe(data => {
 
       newbook.id = data.id
@@ -112,9 +111,14 @@ this.getAllNotesBooks()
   }
 
 
-  public resetall(){
+public resetall(){
 this.searchText=""
 this.getAllNotesBooks()
+
+  }
+  public selectNotebook (notebooks:any){
+
+
 
   }
 }
